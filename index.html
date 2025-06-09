@@ -11,169 +11,19 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/php-javascript.html">PHP & JavaScript</a></li>
+                <li><a href="#php-js">PHP & JavaScript</a></li>
                 <li><a href="#python-java">Python & Java</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="inicio">
             <h2>Bienvenidos</h2>
             <p>Este blog muestra información sobre diversos lenguajes de programación, creado en colaboración con mis compañeros Andrés Mora y Carlos Díaz.</p>
         </section>
-        <section id="php-js">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/800px-PHP-logo.svg.png" alt="Foto de perfil" class="profile-pic" width="200" height="200">
-            <br>
-            <h3>¿Que es?</h3>
-            <p>PHP (Hypertext Preprocessor) es un lenguaje de programación de código abierto ampliamente utilizado para el desarrollo web. Es un lenguaje del lado del servidor, lo que significa que se ejecuta en el servidor web y no en el navegador del usuario. PHP se utiliza principalmente para crear páginas web dinámicas que interactúan con bases de datos.</p>
-            <h3>¿Para que sirve?</h3>
-            <p>- Generar contenido dinámico en páginas web.</p>
-            <p>- Interactuar con bases de datos (como MySQL) para leer, insertar, actualizar y borrar datos.</p>
-            <p>- Gestionar formularios, recibir datos del usuario y mostrarlos.</p>
-            <p>- Gestionar sesiones para almacenar información de usuario entre diferentes páginas.</p>
-            <p>- Realizar operaciones del lado del servidor, como cargar archivos, enviar correos electrónicos, entre otros.</p>
-            <p></p>
-            <h3>Caracteristicas principales</h3>
-            <p>- Lenguaje del lado del servidor: PHP se ejecuta en el servidor web y genera HTML que se envía al navegador.</p>
-            <p>- Interacción con bases de datos: PHP se usa comúnmente con bases de datos como MySQL, PostgreSQL, SQLite, etc.</p>
-            <p>- Integración fácil con HTML: PHP puede incrustarse fácilmente en HTML usando las etiquetas < ? php ?>.</p>
-            <p>- Variables dinámicas: Las variables en PHP no requieren declaración de tipo, ya que PHP es un lenguaje tipado débil.</p>
-            <p>- Portabilidad: PHP es compatible con la mayoría de los servidores web y sistemas operativos.</p>
-            <p>- Código abierto: PHP es de código abierto y tiene una gran comunidad de desarrollo.</p>
-            <p>- Amplia compatibilidad con frameworks y sistemas como WordPress, Laravel, Symfony, etc.</p>
-            <h5>Sintaxis basica</h5>
-            <img src="https://i.ibb.co/Cy7NHkL/php-Declarar-una-variable-nombre-Juan-Mostrar-contenido-echo-Hola-nombre-Output-Hola-Juan-Funci-n-si.jpg" width="350" height="350">
-            <p>< ?php ... ?>:  Delimita el bloque de código php.</p>
-            <p>echo: Es utilizado para imprimir contenido en la pagina.</p>
-            <p>$nombre: Es una variable en PHP, siempre comienza con el signo $.</p>
-            <p>function: Define una función en PHP.</p>
-            <title>Ejemplo Interactivo PHP / JavaScript</title>
-            <style>
-                body {
-                font-family: Arial, sans-serif;
-                padding: 20px;
-                }
-
-                button {
-                margin: 5px;
-                padding: 10px 20px;
-                font-size: 16px;
-                cursor: pointer;
-                }
-
-                #contenido {
-                margin-top: 20px;
-                border: 1px solid #ccc;
-                padding: 15px;
-                background-color: #f9f9f9;
-                }
-
-                code {
-                display: block;
-                white-space: pre-wrap;
-                background: #eee;
-                padding: 10px;
-                }
-            </style>
-            </head>
-            <body>
-
-            <h2>Ver ejemplos de código</h2>
-            <button onclick="mostrarEjemplo('php')">Ejemplo PHP</button>
-            <button onclick="mostrarEjemplo('js')">Ejemplo JavaScript</button>
-
-            <div id="contenido">
-                <p>Haz clic en uno de los botones para ver un ejemplo de código.</p>
-            </div>
-
-            <script>
-                function mostrarEjemplo(tipo) {
-                const contenido = document.getElementById('contenido');
-                
-                if (tipo === 'php') {
-                    contenido.innerHTML = `
-                    <h3>Ejemplo PHP</h3>
-                    <code>
-            &lt;?php<br>
-            $nombre = "Mundo";<br>
-            echo "Hola " . $nombre;<br>
-            ?&gt;
-                    </code>
-                    `;
-                } else if (tipo === 'js') {
-                    contenido.innerHTML = `
-                    <h3>Ejemplo JavaScript</h3>
-                    <code>
-            let nombre = "Mundo";<br>
-            console.log("Hola " + nombre);
-                    </code>
-                    `;
-                }
-                }
-            </script>
-        
-
-
-
-
-
-
-
-            <br>
-            <img src="https://gsbit.org/wp-content/uploads/2016/02/javascript-1.png">
-            <h3>¿Que es?</h3>
-            <p>JavaScript es un lenguaje de programación que se ejecuta en el lado del cliente (navegador) y se utiliza para crear interactividad en las páginas web. Es uno de los lenguajes más populares para el desarrollo web y se utiliza para manipular elementos en la página, responder a eventos, realizar validaciones de formularios, y más.</p>
-            <h3>¿Para que sirve?</h3>
-            <p>- Interactividad: Agregar animaciones, validaciones de formularios, menús desplegables, sliders, entre otros efectos visuales.
-            <p>- Manipulación del DOM: Permite modificar el contenido y la estructura de la página web de manera dinámica.</p>
-            <p>- Validación de formularios: Puedes validar que los datos del usuario sean correctos antes de enviarlos al servidor.</p>
-            <p>- Comunicación con el servidor: Utiliza tecnologías como AJAX para cargar contenido de manera asíncrona sin recargar la página.</p>
-            <p>Juegos y aplicaciones: Con el uso de bibliotecas como Three.js o Canvas, puedes crear juegos o aplicaciones web interactivas.</p>
-            <h3>Caracteristicas principales</h3>
-            <p>- Lenguaje del lado del cliente: JavaScript se ejecuta en el navegador del usuario, lo que permite interactividad sin recargar la página.</p>
-            <p>- Manipulación del DOM: Puedes cambiar dinámicamente el contenido de la página (añadir, eliminar o modificar elementos HTML).</p>
-            <p>- Orientado a eventos: JavaScript responde a eventos como clics, teclas presionadas o desplazamiento de la página.</p>
-            <p>- Interacción asíncrona: JavaScript puede realizar tareas en segundo plano (como consultas a un servidor) sin bloquear la interfaz del usuario.</p>
-            <p>- Evolución constante: JavaScript sigue mejorando con cada nueva versión (por ejemplo, ES6/ES2015 trajo nuevas funcionalidades y mejoras).</p>
-            <h5>Sintaxis basica</h5>
-            <img src="./images/Captura de pantalla 2025-06-08 175621.png" width="350" height="350">
-            <p> < script >: Etiqueta HTML donde escribimos el código JavaScript.</p>
-            <p>onclick="mostrarMensaje()": Un evento de JavaScript que se activa cuando el usuario hace clic en el botón. Llama a la función mostrarMensaje().</p>
-            <p>alert("¡Hola, Mundo!");: Muestra un cuadro de alerta con el texto "¡Hola, Mundo!" cuando se hace clic en el botón.</p>
-        </section>
-
     </main>
-    
+
     <footer>
         <p>&copy; 2025 Blog Colaborativo - Todos los derechos reservados</p>
     </footer>
